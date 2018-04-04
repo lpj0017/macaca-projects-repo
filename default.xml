@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="macacajs" fetch="git@github.com:macacajs/"/>
+    <remote name="macaca-sample" fetch="git@github.com:macaca-sample/"/>
+    <remote name="app-bootstrap" fetch="git@github.com:app-bootstrap/"/>
+
+    <!-- default config of all projects -->
+    <!-- remote: the base url -->
+    <!-- revision:the branch name -->
+    <default revision="refs/heads/master" remote="macacajs" sync-j="4"/>
+    <notice>Your sources have been sync'd successfully.</notice>
+
+
+    <!-- macacajs -->
+    <project path="macaca/doctor" name="macaca-doctor.git"/>
+    <project path="macaca/commandline" name="macaca-cli.git"/>
+    <project path="macaca/app-inspector" name="app-inspector.git"/>
+    <project path="macaca/UIAutomatorWD" name="UIAutomatorWD.git"/>
+    <project path="macaca/NoSmoke" name="NoSmoke.git"/>
+    <project path="macaca/coverage" name="macaca-coverage.git"/>
+    <project path="macaca/gradle" name="gradle.git"/>
+    <project path="macaca/utils" name="macaca-utils.git"/>
+    <project path="macaca/driver-base" name="driver-base.git"/>
+    <project path="macaca/uitest-nodejs" name="uitest.git"/>
+
+    <!-- macacajs/datahub -->
+    <project path="macaca/datahub/core" name="macaca-datahub.git"/>
+    <project path="macaca/datahub/view" name="datahub-view.git"/>
+    <project path="macaca/datahub/java-sdk" name="datahub-java-sdk.git"/>
+    <project path="macaca/datahub/python-sdk" name="datahub-python-sdk.git"/>
+    <project path="macaca/datahub/debugger" name="debugger-board.git"/>
+
+    <!-- macacajs/android -->
+    <project path="macaca/android/driver" name="macaca-android.git"/>
+    <project path="macaca/android/adb" name="macaca-adb.git"/>
+    <project path="macaca/android/unlock" name="unlock-apk.git"/>
+    <project path="macaca/android/performance" name="android-performance.git"/>
+    <project path="macaca/android/unicode" name="android-unicode.git"/>
+
+    <!-- macacajs/webdriver -->
+    <project path="macaca/webdriver-api" name="webdriver.git"/>
+    <project path="macaca/webdriver/client" name="macaca-wd.git"/>
+    <project path="macaca/webdriver/server" name="webdriver-server.git"/>
+    <project path="macaca/webdriver/java" name="wd.java.git"/>
+
+    <!-- macacajs/python -->
+    <project path="macaca/python/driver" name="wd.py.git"/>
+
+    <!-- macacajs/docker -->
+    <project path="macaca/docker/android-image" name="macaca-android-docker.git"/>
+
+    <!-- macacajs/doc -->
+    <project path="docs/awesome-macaca" name="awesome-macaca.git"/>
+    <project path="docs/office-site" name="macacajs.github.io.git"/>
+
+
+    <!-- macacajs/samples -->
+    <project path="samples/nodejs" name="sample-nodejs.git" remote="macaca-sample"/>
+    <project path="samples/java-biz-framework" name="macaca-java-biz-framework.git" remote="macaca-sample"/>
+    <project path="samples/java-biz-sample" name="macaca-java-biz-sample.git" remote="macaca-sample"/>
+    <project path="samples/webpack-datahub" name="webpack-datahub-sample.git" remote="macaca-sample"/>
+    <project path="samples/coverage" name="coverage-sample.git" remote="macaca-sample"/>
+    <project path="samples/vue" name="vue-sample.git" remote="macaca-sample"/>
+    <project path="samples/library-roboframework" name="MacacaLibrary.git" remote="macaca-sample"/>
+    <project path="samples/java" name="sample-java.git" remote="macaca-sample"/>
+    <project path="samples/python" name="sample-python.git" remote="macaca-sample"/>
+
+
+    <!-- bootstrap -->
+    <project path="bootstrap/web" name="awesome-practice-projects.git" remote="app-bootstrap"/>
+    <project path="bootstrap/ios" name="ios-app-bootstrap.git" remote="app-bootstrap"/>
+    <project path="bootstrap/android" name="android-app-bootstrap.git" remote="app-bootstrap"/>
+
+
+</manifest>
